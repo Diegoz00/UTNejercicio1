@@ -26,7 +26,7 @@ public class Materia {
 
     }
     public boolean puedeCursar(Alumno alumno){
-        //TODO
+
         return this.correlativas.stream().allMatch(materiaCorrelativa -> alumno.tenesCorrelativa(materiaCorrelativa));
     }
 

@@ -26,7 +26,7 @@ public class Inscripcion {
     }
 
     public boolean aprobada(){
-        //TODO
+
         return !this.materia.tenesCorrelativas() || this.materia.puedeCursar(this.alumno);
 
     }
